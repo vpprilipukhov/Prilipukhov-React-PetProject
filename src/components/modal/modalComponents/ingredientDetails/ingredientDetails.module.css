@@ -1,0 +1,65 @@
+.main {
+    display: grid;
+    grid-template-rows: 220px 58px 56px;
+    gap: 16px;
+    padding-bottom: 32px;
+}
+
+.imgIng {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.txtIng {
+    /* desktop/display small */
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+
+    /* text/primary-light (standart text) */
+
+    color: #F2F2F3;
+}
+
+.detailsIng {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+
+    color: #8585AD;
+
+}
+
+.detailsTextIng{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 8px;
+
+
+
+
+}
+
+.detailsTextIngDop{
+    display: flex;
+    justify-content: center;
+
+
+}

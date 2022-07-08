@@ -1,0 +1,32 @@
+.page{
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+
+}
+
+
+.app_wrapper {
+  margin: auto;
+  padding: 40px;
+  display: grid;
+  background-color: black;
+
+  /*grid-template-rows: 88px; !*задает ширину. влияет на первую строку? почему?*!*/
+  /*grid-template-rows: 100px; !* top row is 100px in height *!*/
+  /*grid-auto-rows: 200px;*/
+
+  grid-template-columns: 1fr 1fr;
+
+  grid-column-gap: 40px;
+
+  grid-template-areas:
+    "h h"
+    "n c";
+
+  /*grid-template-rows: 60px 1fr;*/
+  /*grid-template-columns: 2fr 10fr;*/
+  /*grid-gap: 40px;*/
+
+}
+

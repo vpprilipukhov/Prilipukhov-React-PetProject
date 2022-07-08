@@ -1,0 +1,120 @@
+.burgerIngredients {
+    grid-area: n;
+    display: grid;
+
+    grid-template-columns: 600px;
+    height: 912px;
+
+    justify-content: end;
+
+
+}
+
+.miniMenu {
+
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    /* desktop/text */
+
+    font-family: 'Jet Brains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+}
+
+.header {
+    display: flex;
+
+    font-size: 36px;
+
+
+    width: 600px;
+    height: 40px;
+
+    margin-top: 40px;
+
+
+    /* Соберите бургер */
+
+
+
+    /* desktop/display large */
+
+    font-family: 'Jet Brains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 111% */
+
+
+
+    /* text/primary-light (standart text) */
+
+    color: #F2F2F3;
+
+
+}
+
+.blockComponent {
+
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+
+}
+
+.componentMain {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 32px;
+
+
+    height: auto;
+
+
+}
+
+.textChoice {
+    /* desktop/display small */
+
+    font-family: 'Jet Brains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+}
+
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+    width: 8px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background-color: #143861;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: #843465;
+    /*border-radius: 9em;*/
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #253861;
+}
+
+.list {
+    list-style-type: none;
+}

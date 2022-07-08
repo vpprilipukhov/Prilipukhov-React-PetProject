@@ -1,0 +1,367 @@
+.burgerIngredients {
+    grid-area: c;
+
+    display: grid;
+    align-content: start;
+    justify-content: start;
+
+
+    grid-template-columns: 600px;
+    height: 814px;
+
+
+    grid-row-gap: 16px;
+    padding-left: 16px;
+    padding-top: 100px;
+
+
+}
+
+.choiceComponentFilling {
+
+
+    display: grid;
+    align-content: start;
+    justify-content: start;
+    grid-row-gap: 16px;
+
+    height: auto;
+    max-height: 460px;
+
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+
+}
+
+
+.choiceComponent {
+    display: grid;
+    align-content: center;
+
+    grid-template-columns: 20px 526px;
+    column-gap: 12px;
+    /*центровка сбивается?*/
+
+
+    width: 550px;
+    height: 80px;
+
+
+}
+
+
+.dragIcon {
+    display: grid;
+
+    align-content: center;
+    justify-content: start;
+    justify-self: start;
+
+
+    height: 80px;
+
+
+}
+
+
+.choiceComponentInner {
+    display: grid;
+    height: 80px;
+
+    grid-template-columns: 80px 254px 100px 20px;
+
+    align-content: center;
+
+    justify-content: start;
+
+
+    border-radius: 30px;
+    background: #1C1C1C;
+    grid-column-gap: 5px;
+
+
+}
+
+
+.choiceComponentImage {
+    display: grid;
+    align-content: start;
+    justify-content: start;
+
+
+    width: 80px;
+    height: 48px;
+
+
+}
+
+.choiceComponentImageImage {
+    width: 110%;
+    height: 110%;
+
+}
+
+.choiceComponentPrice {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4px;
+
+    align-content: center;
+    justify-content: center;
+
+
+    width: 80px;
+    height: 48px;
+
+
+    font-size: 16px;
+
+}
+
+
+.choiceComponentText {
+    display: grid;
+    align-content: center;
+    justify-content: start;
+    width: 254px;
+    height: 48px;
+
+
+    font-size: 16px;
+}
+
+.choiceLock {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+
+    padding: 0;
+
+
+    width: 22px;
+
+
+}
+
+.choiceComponentDell {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+
+    width: 22px;
+
+
+}
+
+
+.choiceComponentInnerTop {
+    display: grid;
+    height: 80px;
+
+    grid-template-columns: 80px 254px 100px 20px;
+
+    align-content: center;
+
+    justify-content: start;
+
+
+    border-radius: 60px 60px 30px 30px;
+    background: #1C1C1C;
+    grid-column-gap: 5px;
+
+
+}
+
+.choiceComponentInnerBot {
+    display: grid;
+    height: 80px;
+
+    grid-template-columns: 80px 254px 100px 20px;
+
+    align-content: center;
+
+    justify-content: start;
+
+
+    border-radius: 30px 30px 60px 60px;
+    background: #1C1C1C;
+    grid-column-gap: 5px;
+
+
+}
+
+
+.sum {
+    display: flex;
+    width: auto;
+    height: 64px;
+    padding-top: 40px;
+
+    justify-content: flex-end;
+    align-content: center;
+
+
+}
+
+.sumContainer {
+
+    display: flex;
+
+    height: 64px;
+
+
+    column-gap: 40px;
+
+    justify-content: flex-end;
+    align-content: center;
+
+
+}
+
+
+.sum2 {
+    display: flex;
+    justify-content: flex-end;
+    align-self: baseline;
+    width: auto;
+
+
+    height: 64px;
+}
+
+.sumNumber {
+    position: center;
+    width: auto;
+    left: calc(50% - 75px / 2 - 22px);
+    top: 21.88%;
+    bottom: 21.88%;
+
+
+    font-family: 'Ice land';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 36px;
+    /* identical to box height, or 75% */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    /* text/primary-light (standart text) */
+
+    color: #F2F2F3;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 14px;
+
+
+}
+
+.iconSum {
+    display: flex;
+    align-items: center;
+
+
+    left: 4.17%;
+    right: 4.17%;
+    top: 4.17%;
+    bottom: 4.17%;
+    transform: scale(1.8, 1.8);
+
+
+}
+
+.b {
+    display: grid;
+
+
+    height: 64px;
+    width: 215px;
+
+
+}
+
+
+.txtBut {
+    /* Text */
+
+
+    /* desktop/text */
+
+    font-family: 'Jet Brains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+
+    /* text/primary-light (standart text) */
+
+    color: #F2F2F3;
+
+
+    /* Inside auto layout */
+
+}
+
+.but { /* Base */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    height: 64px;
+    width: 215px;
+
+    padding: 18px 48px;
+
+
+    /* button/normal */
+
+    background: linear-gradient(63.18deg, #801AB3 0%, #4C4CFF 100%);
+    border-radius: 64px;
+
+    /* Inside auto layout */
+
+
+}
+
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: #843465;
+    /*border-radius: 9em;*/
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #253861;
+}

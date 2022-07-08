@@ -1,0 +1,104 @@
+
+.modalContent {
+    Width: 720px;
+    Height: auto;
+    Radius: 40px;
+    Gap: 10px;
+    Blend: Pass through;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -370px;
+    margin-top: -260px;
+
+    /* interface/modal-bg */
+
+    background: #1C1C21;
+    /* /interface/modal edge */
+
+    border: 1px solid rgba(76, 76, 255, 0.2);
+    /* card/x-large */
+
+    box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 40px;
+
+    overflow: hidden
+}
+
+
+.modalContentIn {
+    display: grid;
+    grid-template-rows: 64px auto;
+    margin: 40px;
+
+
+}
+
+
+.headerMy {
+    /* title+button */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 36px;
+
+
+    height: 64px;
+    left: 40px;
+    right: 40px;
+    top: 40px;
+
+    /* interface/modal-bg */
+
+    background: #1C1C21;
+}
+
+.headerMyText {
+
+
+    height: 64px;
+
+    /* desktop/display large */
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+
+    display: flex;
+    align-items: center;
+
+    /* text/primary-light (standart text) */
+
+    color: #F2F2F3;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.headerMyCloseIcon {
+
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+
+}

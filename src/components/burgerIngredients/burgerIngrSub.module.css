@@ -1,0 +1,102 @@
+.componentMain {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 32px;
+
+
+    height: auto;
+
+
+}
+
+.component {
+
+    display: grid;
+
+
+    grid-template-rows: auto;
+
+
+    justify-items: center;
+
+    height: 208px;
+    width: 272px;
+
+
+}
+
+
+.componentImage {
+
+    display: grid;
+
+
+    width: 240px;
+    height: 120px;
+
+
+}
+
+
+.componentPrice {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    column-gap: 4px;
+
+
+    height: 24px;
+
+    padding: 4px;
+
+
+    /* desktop/digits small */
+
+    font-family: 'Ice land';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+
+
+}
+
+.componentText {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 16px;
+
+    height: 48px;
+    width: 272px;
+
+    font-family: 'Jet Brains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    padding: 0;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+
+}
+
+.currencyIconButton {
+    padding: 0;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
